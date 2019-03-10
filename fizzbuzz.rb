@@ -8,9 +8,9 @@ def fizzbuzz(int)
     puts "Fizz"
   end
   elsif int % 3 == 0 
-    "Buzz"
+    puts "Buzz"
   end
   else 
-    "nil"
+    puts "nil"
   end
 end
