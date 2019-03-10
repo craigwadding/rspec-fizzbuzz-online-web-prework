@@ -7,9 +7,10 @@ def fizzbuzz(int)
   elsif int % 5 == 0 
     "Fizz"
   end
-elsif int % 3 == 0 
-"Buzz"
-end
-else 
-  "nil"
+  elsif int % 3 == 0 
+    "Buzz"
+  end
+  else 
+    "nil"
+  end
 end
