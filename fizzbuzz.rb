@@ -11,7 +11,7 @@ def fizzbuzz(int)
     out = "Fizz"
   
   elsif 
-    out = "nil"
+    out = nil
   end
   out
 end
